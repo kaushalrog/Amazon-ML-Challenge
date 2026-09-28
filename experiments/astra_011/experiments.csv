@@ -1,0 +1,5 @@
+experiment_id,change,validation_f05,precision,recall,singleton_accuracy,candidate_recall,runtime,decision,reason,threshold
+ASTRA011_previous_model,previous_model,0.9491254179085125,0.9731624314574314,0.8986735912698413,0.9455842997323818,0.9849793792055568,28.841310024261475,development comparison,"expanded real candidates, full S1 denominators",0.75
+ASTRA011_broader_43,broader_43,0.9545570631543356,0.9762968849206348,0.9080674999999999,0.9491525423728814,0.9849793792055568,171.12552285194397,development comparison,"expanded real candidates, full S1 denominators",0.7
+ASTRA011_broader_retrieval,broader_retrieval,0.9568419255277655,0.9788209632034632,0.9090254365079365,0.9571810883140054,0.9849793792055568,110.70112586021423,development comparison,"expanded real candidates, full S1 denominators",0.725
+ASTRA011_relative_evidence,relative_evidence,0.9582149307536458,0.9799981854256854,0.9101087896825396,0.9482604817127565,0.9849793792055568,127.97368216514587,development comparison,"expanded real candidates, full S1 denominators",0.75

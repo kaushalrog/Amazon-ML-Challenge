@@ -1,0 +1,17 @@
+{
+  "cap": 400,
+  "filter": 0.0001,
+  "batch": 500,
+  "split": "train",
+  "sha256": {
+    "/Users/kaush/Downloads/student_resource/experiments/astra_engine/prepare.py": "f723bbde36bdd282842430e25729ad07882d03c33527d0da5cf38a57219c2243",
+    "/Users/kaush/Downloads/student_resource/experiments/astra_engine/key_index.py": "b2e753ecf17f991a2a621999d87551b9499e320f20d0164ac2f0c3bd8204e80a",
+    "/Users/kaush/Downloads/student_resource/experiments/astra_baseline/src/features_v2.py": "486d79cc109fed1d3cc89e17a0836f57501d5ce83f6f55db806a4422c1d87f3d",
+    "/Users/kaush/Downloads/student_resource/experiments/astra_003/features.py": "fc8cc0113d39b7d9a0278bce1dd21f1c3f6768604174afdb5ff3a7e6ea3e9400",
+    "/Users/kaush/Downloads/student_resource/experiments/astra_003/token_map.json": "f97941a2eb26af39d1acf75bee55cb1a7aa14a85c8556de1db14bb31db0c5589",
+    "/Users/kaush/Downloads/student_resource/experiments/astra_003/name_df.json": "7c3d75d8096b8a7f7d39ad69b031b11529d5bd9b592c56108d39526b9a8c47e7",
+    "/Users/kaush/Downloads/student_resource/experiments/astra_fast/blocker.txt": "0fc959a33e151e55c0ada48d375b5294228f759f7d6bd7efdfed2e50111363ef",
+    "experiments/astra_engine/retrieval_dev/query_ids.parquet": "453cc4de712d223e4eea9e725f2fa99a8bc2bf874a288d90cdc53b8d0d728e26",
+    "experiments/astra_engine/retrieval_dev/manifest.json": "6e71d19a5153cc1e724ecf66bc7a582a3e2575136427b759a2443dc63d7c0a71"
+  }
+}
