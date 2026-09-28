@@ -1,0 +1,33 @@
+{
+  "chosen": {
+    "threshold": 0.0,
+    "macro_f05": 0.9602018896103688,
+    "macro_precision": 0.9784789682539682,
+    "macro_recall": 0.9199027777777777,
+    "singleton_accuracy": 0.9607493309545049,
+    "n_entities": 20000,
+    "predicted": 64216,
+    "true_pairs": 69105,
+    "tp": 63270,
+    "false_positives": 946,
+    "false_negatives": 5835,
+    "empty_predictions": 1229,
+    "candidate_floor": 0.5
+  },
+  "paired_gain": 0.0007107954710961752,
+  "paired_bootstrap_95_percent_interval": [
+    0.00016985661650995156,
+    0.0012148685978207536
+  ],
+  "half_split_gains": [
+    {
+      "half": 0,
+      "delta": 0.0005862378122041525
+    },
+    {
+      "half": 1,
+      "delta": 0.0008341137502977289
+    }
+  ],
+  "note": "Development stability diagnostic; halves and bootstrap are not independent model-selection holdouts."
+}
