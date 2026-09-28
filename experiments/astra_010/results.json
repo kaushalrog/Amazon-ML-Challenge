@@ -1,0 +1,21 @@
+{
+  "threshold": 0.675,
+  "macro_f05": 0.9482202448468015,
+  "macro_precision": 0.9678063492063493,
+  "macro_recall": 0.911608134920635,
+  "singleton_accuracy": 0.9537037037037037,
+  "n_entities": 2000,
+  "predicted": 6481,
+  "true_pairs": 6929,
+  "tp": 6274,
+  "false_positives": 207,
+  "false_negatives": 655,
+  "empty_predictions": 117,
+  "candidate_recall": 0.9847019771972868,
+  "candidate_count": 426608,
+  "baseline_same_entities": 0.918960261061081,
+  "gain": 0.029259983785720478,
+  "runtime": 8.084823608398438,
+  "model": "experiments/astra_003/all_features.txt",
+  "status": "development pilot; threshold frozen from model manifest"
+}
