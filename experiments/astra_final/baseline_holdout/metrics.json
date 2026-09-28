@@ -1,0 +1,16 @@
+{
+  "threshold": 0.62,
+  "macro_f05": 0.9161312197240613,
+  "macro_precision": 0.9583670616883116,
+  "macro_recall": 0.8319182106782107,
+  "singleton_accuracy": 0.9318385650224216,
+  "n_entities": 20000,
+  "predicted": 58440,
+  "true_pairs": 69273,
+  "tp": 57327,
+  "false_positives": 1113,
+  "false_negatives": 11946,
+  "empty_predictions": 1508,
+  "candidate_recall": 0.9040174382515554,
+  "runtime": 99.20744609832764
+}

@@ -1,0 +1,15 @@
+{
+  "pid": 79516,
+  "args": [
+    "experiments/astra_engine/test_infer.py",
+    "--retrieval",
+    "experiments/astra_engine/retrieval_test",
+    "--model",
+    "experiments/astra_final/matcher.txt",
+    "--decision",
+    "experiments/astra_final/decision.json",
+    "--output",
+    "submissions/astra_001",
+    "--wait"
+  ]
+}

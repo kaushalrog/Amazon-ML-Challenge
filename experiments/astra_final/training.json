@@ -1,0 +1,11 @@
+{
+  "fit_rows": 1248449,
+  "positive_rows": 272766,
+  "s1_with_pairs": 79975,
+  "training_s1": 80000,
+  "iterations": 1400,
+  "runtime": 300.52334690093994,
+  "model_sha256": "3d963cd00d7fd95056682478cbe8b21d9100db4bdceb2401147fcdbdfa071872",
+  "fitting": "all positives and hard negatives retained; inverse-probability easy-negative weights times inverse square root of true match count",
+  "holdout_used": false
+}
