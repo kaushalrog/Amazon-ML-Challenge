@@ -1,0 +1,21 @@
+{
+  "threshold": 0.62,
+  "macro_f05": 0.9351811584548823,
+  "macro_precision": 0.9616930555555557,
+  "macro_recall": 0.8828900793650793,
+  "singleton_accuracy": 0.8981481481481481,
+  "n_entities": 2000,
+  "predicted": 6283,
+  "true_pairs": 6929,
+  "tp": 6084,
+  "false_positives": 199,
+  "false_negatives": 845,
+  "empty_predictions": 118,
+  "candidate_recall": 0.9847019771972868,
+  "candidate_count": 426608,
+  "baseline_same_entities": 0.918960261061081,
+  "gain": 0.01622089739380128,
+  "runtime": 6.299553155899048,
+  "model": "/Users/kaush/Downloads/student_resource/experiments/astra_baseline/models/matcher_lgbm.txt",
+  "status": "development pilot; threshold frozen from model manifest"
+}
