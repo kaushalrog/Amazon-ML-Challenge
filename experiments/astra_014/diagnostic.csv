@@ -1,0 +1,5 @@
+category,len,with_anchor,median_anchor_gain,strong_additional_evidence
+true_positive,6248,5888,0.0,724
+false_negative,566,528,0.0,20
+false_positive,84,77,0.0,3
+true_negative,105860,98260,0.0,135
