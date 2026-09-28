@@ -1,0 +1,19 @@
+# Competition data (large, and not ours to redistribute)
+dataset/
+
+# Environment / caches
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+work/
+
+# Large generated artifacts
+*.parquet
+*.npz
+*.npy
+*.log
+output/
+**/parts/
+reports/error_cases.tsv
+submissions/**/*.tsv
