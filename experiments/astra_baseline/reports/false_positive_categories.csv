@@ -1,0 +1,9 @@
+category,len
+other,499
+both_similar_overconfident,139
+similar_address_diff_name,129
+number_conflict,101
+missing_address,82
+same_name_diff_address,78
+same_address_diff_name,77
+similar_name_diff_address,51

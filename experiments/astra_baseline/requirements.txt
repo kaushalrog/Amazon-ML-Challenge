@@ -1,0 +1,6 @@
+pandas
+polars
+scikit-learn
+lightgbm
+scipy
+tqdm

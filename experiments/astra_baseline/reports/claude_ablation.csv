@@ -1,0 +1,2 @@
+experiment,blocking,features,model,hard_negative_mining,embedding,graph_consistency,threshold,candidate_recall,dev_macro_f05,precision,recall,macro_f05,singleton_accuracy,false_positives,false_negatives,avg_cands_per_s1,runtime_s,notes
+blocking_cap_200,union+rare cap=200,28 vectorized,LightGBM,false,false,false,0.62,0.9071,0.9184,0.9591,0.8371,0.9187,0.9289,1138,11554,121.4,120.2,"blocking cap sweep, end-to-end"
