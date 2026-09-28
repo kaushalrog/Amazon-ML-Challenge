@@ -1,0 +1,10 @@
+"""Reproduce the protected baseline on the reserved S1 holdout for a paired comparison."""
+from pathlib import Path
+import sys,time,json
+import polars as pl,numpy as np,lightgbm as lgb
+from key_index import Index
+R=Path(__file__).resolve().parents[2];B=R/'experiments/astra_baseline';O=R/'experiments/astra_final/baseline_holdout';O.mkdir(parents=True,exist_ok=True);sys.path.insert(0,str(B/'src'));import features_v2 as F,evaluate_v2 as E
+t=time.time();ids=pl.read_parquet(R/'experiments/astra_engine/retrieval_fresh/query_ids.parquet');q=pl.read_parquet(R/'work/cache/train_source1.parquet').join(ids,on='eid',how='semi').sort('eid');c=Index('train').candidates(q,200,False);pool=pl.concat([pl.scan_parquet(R/f'work/cache/train_source{i}.parquet').join(c.filter(pl.col('src')==i).select('eid').unique().lazy(),on='eid',how='semi').collect() for i in [2,3]]).with_columns((pl.col('eid')*4+pl.col('src')).alias('_key')).sort('_key');pk=pool['_key'].to_numpy();gt=pl.read_parquet(R/'work/cache/gt_pairs.parquet').join(ids.rename({'eid':'s1'}),on='s1',how='semi');nt=pl.read_parquet(R/'experiments/astra_011/fresh/ntrue.parquet');m=lgb.Booster(model_file=str(B/'models/matcher_lgbm.txt'));out=[]
+for start in range(0,q.height,500):
+ z=q.slice(start,500);cand=c.join(z.select(pl.col('eid').alias('s1')),on='s1',how='semi');wanted=np.unique(cand['eid'].to_numpy()*4+cand['src'].to_numpy());pos=np.searchsorted(pk,wanted);assert np.array_equal(pk[pos],wanted);x=F.compute(F.attach_records(cand,z,pool[pos]));s=x.select('s1','src','eid').with_columns(pl.Series('score',m.predict(x.select(F.FEATURES).to_numpy(order='c'),num_threads=2).astype('float32'))).join(gt.with_columns(pl.lit(1,dtype=pl.Int8).alias('label')),on=['s1','src','eid'],how='left').with_columns(pl.col('label').fill_null(0));out.append(s)
+s=pl.concat(out);s.write_parquet(O/'scored.parquet');metrics=E.evaluate(s,nt,.62);metrics.update(candidate_recall=s['label'].sum()/gt.height,runtime=time.time()-t);(O/'metrics.json').write_text(json.dumps(metrics,indent=2));print(metrics,flush=True)

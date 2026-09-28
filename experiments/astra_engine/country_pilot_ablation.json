@@ -1,0 +1,14 @@
+[
+  {
+    "variant": "all_country",
+    "candidates": 644073,
+    "positive_hits": 6815,
+    "true_pairs": 6929
+  },
+  {
+    "variant": "same_country",
+    "candidates": 643438,
+    "positive_hits": 6815,
+    "true_pairs": 6929
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "pid": 77000,
+  "args": [
+    "experiments/astra_engine/retrieve.py",
+    "--fold",
+    "test",
+    "--threads",
+    "6",
+    "--output",
+    "experiments/astra_engine/retrieval_test"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "algorithm": "same-country-joint-v1",
+  "fold": "dev",
+  "n": 20000,
+  "k": 100,
+  "batch": 60000,
+  "model_inputs": {
+    "/Users/kaush/Downloads/student_resource/experiments/astra_003/token_map.json": "f97941a2eb26af39d1acf75bee55cb1a7aa14a85c8556de1db14bb31db0c5589",
+    "/Users/kaush/Downloads/student_resource/experiments/astra_002/name_vectorizer.pkl": "5c9b29c14e02591c9aeb9a3367e1280e3015404b9ce63e5079fe4584bfb9b45b",
+    "/Users/kaush/Downloads/student_resource/experiments/astra_002/addr_vectorizer.pkl": "c0bae6a0ac9bb34110e7b2fc92f6186c58367f120339b58e7073e103c86193bc"
+  }
+}

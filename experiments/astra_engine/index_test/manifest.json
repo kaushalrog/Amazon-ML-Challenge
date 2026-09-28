@@ -1,0 +1,17 @@
+{
+  "polars": "1.44.2",
+  "seed": 20260927,
+  "inputs": {
+    "/Users/kaush/Downloads/student_resource/work/cache/test_source2.parquet": {
+      "size": 174259959,
+      "mtime_ns": 1790449641582444743
+    },
+    "/Users/kaush/Downloads/student_resource/work/cache/test_source3.parquet": {
+      "size": 177402329,
+      "mtime_ns": 1790449660319335056
+    }
+  },
+  "code_sha256": "b2e753ecf17f991a2a621999d87551b9499e320f20d0164ac2f0c3bd8204e80a",
+  "token_map_sha256": "adba095c31673b8031d94b56380b716d91f95d7ec35462b17abc435a90ff43f4",
+  "ocr_map_sha256": "4771184bc1c0220e996f561b5302331b25a2a4fd0d09b4eaee73b74cbe8e5845"
+}

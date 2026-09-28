@@ -1,0 +1,22 @@
+{
+  "training": {
+    "pid": 74657,
+    "args": [
+      "experiments/astra_013/train.py"
+    ],
+    "log": "experiments/astra_013/resumed.log"
+  },
+  "retrieval": {
+    "pid": 74658,
+    "args": [
+      "experiments/astra_engine/retrieve_country.py",
+      "--fold",
+      "test",
+      "--threads",
+      "4",
+      "--output",
+      "experiments/astra_engine/retrieval_country_test"
+    ],
+    "log": "experiments/astra_engine/retrieval_country_test_resumed.log"
+  }
+}
