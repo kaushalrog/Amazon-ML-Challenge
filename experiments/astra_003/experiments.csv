@@ -1,0 +1,4 @@
+experiment_id,change,validation_f05,precision,recall,singleton_accuracy,candidate_recall,runtime,decision,reason,threshold
+ASTRA003_sampled_baseline,sampled_baseline,0.9204314394560275,0.9606677976190476,0.8391938888888888,0.9393398751115076,0.9070689530424716,71.81576490402222,retain_for_further_validation,development-only comparison on identical candidates,0.625
+ASTRA003_all_features,all_features,0.9296391726659023,0.9656696536796536,0.85699125,0.9482604817127565,0.9070689530424716,64.71931195259094,retain_for_further_validation,development-only comparison on identical candidates,0.675
+ASTRA003_rarity_numeric_only,rarity_numeric_only,0.9285675245125531,0.9650472222222223,0.8549751785714285,0.943800178412132,0.9070689530424716,63.21198296546936,retain_for_further_validation,development-only comparison on identical candidates,0.675
