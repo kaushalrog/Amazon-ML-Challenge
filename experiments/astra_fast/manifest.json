@@ -1,0 +1,21 @@
+{
+  "features": [
+    "name_jw",
+    "name_tsr",
+    "name_qratio",
+    "name_jac",
+    "name_len_ratio",
+    "addr_jw",
+    "addr_tsr",
+    "addr_jac",
+    "addr_len_ratio",
+    "num_jac",
+    "country_eq",
+    "is_s3",
+    "addr_missing",
+    "num_conflict",
+    "name_x_addr"
+  ],
+  "training": "all positives and hard negatives; weighted easy-negative sample",
+  "runtime": 3.637239933013916
+}
