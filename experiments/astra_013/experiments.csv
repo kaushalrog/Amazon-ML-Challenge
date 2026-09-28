@@ -1,0 +1,4 @@
+experiment_id,change,validation_f05,precision,recall,singleton_accuracy,candidate_recall,runtime,decision,reason,threshold
+expanded_map,expanded_map,0.9572073917471069,0.9781283658008658,0.91215501984127,0.9509366636931311,0.9849793792055568,115.46104335784912,development comparison,train-only lexicon; all hard negatives retained,0.7
+expanded_context,expanded_context,0.9583201409124096,0.979255248917749,0.9121926587301589,0.9429081177520071,0.9849793792055568,214.11207509040833,development comparison,train-only lexicon; all hard negatives retained,0.75
+expanded_macro,expanded_macro,0.9588180940317039,0.9819147222222222,0.9070953769841271,0.9589652096342551,0.9849793792055568,238.9492630958557,development comparison,train-only lexicon; all hard negatives retained,0.775
