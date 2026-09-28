@@ -1,0 +1,11 @@
+{
+  "s1_entities": 2206821,
+  "singletons": 123247,
+  "one_match": 119157,
+  "multi_match": 1964417,
+  "mean_matches": 3.4612526344456573,
+  "max_matches": 11,
+  "s2_match_rate": 0.8696110830919227,
+  "s3_match_rate": 0.8793395567651386,
+  "both_source_rate": 0.8047988486605846
+}

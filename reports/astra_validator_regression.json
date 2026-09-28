@@ -1,0 +1,50 @@
+[
+  {
+    "case": "valid",
+    "same_failures": true,
+    "original_errors": 0,
+    "new_errors": 0
+  },
+  {
+    "case": "outside_candidate",
+    "same_failures": true,
+    "original_errors": 0,
+    "new_errors": 0
+  },
+  {
+    "case": "duplicate_candidate",
+    "same_failures": true,
+    "original_errors": 1,
+    "new_errors": 1
+  },
+  {
+    "case": "unknown",
+    "same_failures": true,
+    "original_errors": 2,
+    "new_errors": 2
+  },
+  {
+    "case": "missing",
+    "same_failures": true,
+    "original_errors": 1,
+    "new_errors": 1
+  },
+  {
+    "case": "self",
+    "same_failures": true,
+    "original_errors": 1,
+    "new_errors": 1
+  },
+  {
+    "case": "malformed",
+    "same_failures": true,
+    "original_errors": 2,
+    "new_errors": 2
+  },
+  {
+    "case": "duplicate_row",
+    "same_failures": true,
+    "original_errors": 1,
+    "new_errors": 1
+  }
+]

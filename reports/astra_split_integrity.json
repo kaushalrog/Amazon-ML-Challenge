@@ -1,0 +1,14 @@
+{
+  "train_dev": {
+    "id_overlap": 0,
+    "exact_signature_overlap": 0
+  },
+  "train_fresh": {
+    "id_overlap": 0,
+    "exact_signature_overlap": 0
+  },
+  "dev_fresh": {
+    "id_overlap": 0,
+    "exact_signature_overlap": 0
+  }
+}

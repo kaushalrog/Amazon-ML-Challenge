@@ -1,0 +1,13 @@
+{
+  "entities": 20000,
+  "imperfect_entities": 5801,
+  "pair_errors": 7339,
+  "candidate_recall": 0.9849793792055568,
+  "E_multi_match_error_entities": 5624,
+  "E_percent_imperfect_entities": 96.9488019307016,
+  "F_ranked_prefix_oracle_improvable_entities": 4373,
+  "F_percent_imperfect_entities": 75.3835545595587,
+  "oracle_ranked_prefix_f05": 0.9894115973558357,
+  "measured_f05": 0.9594910941392726,
+  "notes": "A/B/C/D partition erroneous pairs. E/F overlap those causes and each other. The oracle uses labels for diagnosis only and is not achieved performance."
+}

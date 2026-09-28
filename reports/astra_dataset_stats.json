@@ -1,0 +1,170 @@
+[
+  {
+    "rows": 2206821,
+    "unique_ids": 2206821,
+    "business_name_missing": 0,
+    "business_address_missing": 0,
+    "country_missing": 0,
+    "business_name_mean_length": 24.03440333402664,
+    "business_address_mean_length": 52.06621923572415,
+    "unique_names": 1539229,
+    "unique_addresses": 2130606,
+    "unique_name_address_country": 2206821,
+    "address_numeric_rate": 0.9650914143013865,
+    "leading_zero_ids": 0,
+    "split": "train",
+    "source": 1,
+    "countries": [
+      {
+        "country": "US",
+        "len": 1323633
+      },
+      {
+        "country": "India",
+        "len": 883188
+      }
+    ]
+  },
+  {
+    "rows": 5034616,
+    "unique_ids": 5034616,
+    "business_name_missing": 0,
+    "business_address_missing": 168967,
+    "country_missing": 0,
+    "business_name_mean_length": 25.103574930044317,
+    "business_address_mean_length": 46.225912760774605,
+    "unique_names": 4402009,
+    "unique_addresses": 4337262,
+    "unique_name_address_country": 5008743,
+    "address_numeric_rate": 0.9064594002799816,
+    "leading_zero_ids": 0,
+    "split": "train",
+    "source": 2,
+    "countries": [
+      {
+        "country": "India",
+        "len": 2017799
+      },
+      {
+        "country": "US",
+        "len": 3016817
+      }
+    ]
+  },
+  {
+    "rows": 5285603,
+    "unique_ids": 5285603,
+    "business_name_missing": 0,
+    "business_address_missing": 175916,
+    "country_missing": 0,
+    "business_name_mean_length": 25.202143823514554,
+    "business_address_mean_length": 46.71443731207206,
+    "unique_names": 4651609,
+    "unique_addresses": 4632765,
+    "unique_name_address_country": 5266743,
+    "address_numeric_rate": 0.9079942250676034,
+    "leading_zero_ids": 0,
+    "split": "train",
+    "source": 3,
+    "countries": [
+      {
+        "country": "India",
+        "len": 2115547
+      },
+      {
+        "country": "US",
+        "len": 3170056
+      }
+    ]
+  },
+  {
+    "rows": 1732544,
+    "unique_ids": 1732544,
+    "business_name_missing": 0,
+    "business_address_missing": 0,
+    "country_missing": 0,
+    "business_name_mean_length": 23.836660425362936,
+    "business_address_mean_length": 57.21318361900188,
+    "unique_names": 1238867,
+    "unique_addresses": 1677483,
+    "unique_name_address_country": 1732544,
+    "address_numeric_rate": 0.9585361179860368,
+    "leading_zero_ids": 0,
+    "split": "test",
+    "source": 1,
+    "countries": [
+      {
+        "country": "India",
+        "len": 809986
+      },
+      {
+        "country": "US",
+        "len": 663106
+      },
+      {
+        "country": "France",
+        "len": 259452
+      }
+    ]
+  },
+  {
+    "rows": 4887273,
+    "unique_ids": 4887273,
+    "business_name_missing": 0,
+    "business_address_missing": 129408,
+    "country_missing": 0,
+    "business_name_mean_length": 25.70386348378738,
+    "business_address_mean_length": 50.413407845233934,
+    "unique_names": 4311041,
+    "unique_addresses": 4224784,
+    "unique_name_address_country": 4864632,
+    "address_numeric_rate": 0.9267423775999417,
+    "leading_zero_ids": 0,
+    "split": "test",
+    "source": 2,
+    "countries": [
+      {
+        "country": "India",
+        "len": 2312565
+      },
+      {
+        "country": "France",
+        "len": 703378
+      },
+      {
+        "country": "US",
+        "len": 1871330
+      }
+    ]
+  },
+  {
+    "rows": 5082316,
+    "unique_ids": 5082316,
+    "business_name_missing": 0,
+    "business_address_missing": 136098,
+    "country_missing": 0,
+    "business_name_mean_length": 25.65539018038233,
+    "business_address_mean_length": 48.74047501178597,
+    "unique_names": 4521929,
+    "unique_addresses": 4456436,
+    "unique_name_address_country": 5066023,
+    "address_numeric_rate": 0.9249371743118688,
+    "leading_zero_ids": 0,
+    "split": "test",
+    "source": 3,
+    "countries": [
+      {
+        "country": "US",
+        "len": 1945701
+      },
+      {
+        "country": "India",
+        "len": 2405000
+      },
+      {
+        "country": "France",
+        "len": 731615
+      }
+    ]
+  }
+]

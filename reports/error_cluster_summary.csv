@@ -1,0 +1,12 @@
+cluster,affected_entities,note
+country_US,4843,overlapping diagnostic tags; not mutually exclusive
+candidate_blocking_miss,4579,overlapping diagnostic tags; not mutually exclusive
+candidate_generated_rejected,4322,overlapping diagnostic tags; not mutually exclusive
+country_India,3924,overlapping diagnostic tags; not mutually exclusive
+S3_candidate_error,3028,overlapping diagnostic tags; not mutually exclusive
+S2_candidate_error,2608,overlapping diagnostic tags; not mutually exclusive
+missing_address,2053,overlapping diagnostic tags; not mutually exclusive
+strong_name_weak_address,1497,overlapping diagnostic tags; not mutually exclusive
+numeric_conflict,1074,overlapping diagnostic tags; not mutually exclusive
+strong_address_weak_name,486,overlapping diagnostic tags; not mutually exclusive
+singleton_false_match,69,overlapping diagnostic tags; not mutually exclusive

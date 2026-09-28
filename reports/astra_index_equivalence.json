@@ -1,0 +1,31 @@
+{
+  "batches": [
+    {
+      "start": 0,
+      "pairs": 130634,
+      "original_seconds": 3.407681941986084,
+      "directory_seconds": 1.7564301490783691
+    },
+    {
+      "start": 500000,
+      "pairs": 129438,
+      "original_seconds": 3.4855308532714844,
+      "directory_seconds": 0.9273698329925537
+    },
+    {
+      "start": 1000000,
+      "pairs": 124136,
+      "original_seconds": 6.079338312149048,
+      "directory_seconds": 2.942178964614868
+    },
+    {
+      "start": 1500000,
+      "pairs": 136153,
+      "original_seconds": 5.949214220046997,
+      "directory_seconds": 0.14444804191589355
+    }
+  ],
+  "elapsed": 38.06328296661377,
+  "exact_candidate_equality": true,
+  "exact_bound_queries": 190038
+}
